@@ -17,16 +17,27 @@ Optionally: The bot should warn you if there is going to be rain that day, given
 ### Commands / help text (in BotFather required format)
 
 **Help**
+
 /temp - Measured temperature
+
 /tempfeel - Human perceived temperature
+
 /wind - Wind speed
+
 /weather - Weather description -> clear, cloudy, rain, ...
+
 /clouds - Percentage of sky covered with clouds
+
 /rain - Amount of rain fallen
+
 /humidity - Humidity in percents
+
 /all - Get all information given by other commands at once.
+
 /city - Get all information like with "/all" for another city than Denges. City name should be only in lowercase letters.
+
 /nextday - Temperature, perceived temperature and weather description for the next 24h in Denges
+
 /help - Information about all available commands
 
 - All commands excepted /city, /nextday and /help can be followed by a number (we call it time offset), which indicates for when the weather prediction must be (number of hours in the future from now). The maximal value of this number is 120 hours aka 5 days. If no time offset is used, current info is returned.
@@ -36,5 +47,7 @@ Optionally: The bot should warn you if there is going to be rain that day, given
 - /city must have two parameters. First the time offset, then the name of the city for which you want the forecast, all in lowercase.
 
 To potentially implement someday?
+
 mute - Mute the bot's rain warnings
+
 talk - Unmute the bot's rain warnings
