@@ -2,6 +2,15 @@
 
 Node-red telegram bot that sends info about the weather.
 
+## Running the project
+
+You must have `node-red` installed to run this project.
+
+The project uses two environment variables: `BOT_TOKEN` and `OWM_ID`. Their value must be set when running node-red:
+```bash
+BOT_TOKEN=<value1> OWM_ID=<value2> node-red
+```
+
 ## Goal
 
 Use Node-RED to retrieve weather data from [https://openweathermap.org/](https://openweathermap.org/), and send it to a Telegram group through a bot.
