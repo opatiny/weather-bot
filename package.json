@@ -2,7 +2,9 @@
     "name": "weather-bot",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-telegrambot": "~8.1.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
