@@ -6,7 +6,9 @@ Node-red telegram bot that sends info about the weather.
 
 You must have `node-red` installed to run this project.
 
-The project uses two environment variables: `BOT_TOKEN` and `OWM_ID`. Their value must be set when running node-red:
+The project uses two environment variables: `BOT_TOKEN` and `OWM_ID`.  `OWM_ID` is the private user key that you get when subscribing to openweathermap. `BOT_TOKEN` is the bothFather token of your telegram bot.
+
+Their value must be set when running node-red:
 ```bash
 BOT_TOKEN=<value1> OWM_ID=<value2> node-red
 ```
