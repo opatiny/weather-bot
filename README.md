@@ -2,6 +2,10 @@
 
 Node-red telegram bot that sends info about the weather.
 
+## Use with docker
+
+Refer to the dockerized project: [https://github.com/opatiny/docker-weather-bot ](https://github.com/opatiny/docker-weather-bot).
+
 ## Running the project
 
 You must have `node-red` installed to run this project.
